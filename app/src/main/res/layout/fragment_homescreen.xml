@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomescreenFragment"
+    android:screenOrientation="portrait"
+    android:background="@android:color/transparent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:padding="10dp"
+        >
+
+        <ImageButton
+            android:id="@+id/highscore1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/highscore"
+            />
+
+    </LinearLayout>
+
+
+    <ImageButton
+            android:id="@+id/moreDif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="45dp"
+            android:layout_toEndOf="@+id/difficultylvl"
+            android:background="@drawable/right"
+             />
+
+        <ImageButton
+            android:id="@+id/lessDif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/moreDif"
+            android:layout_alignBottom="@+id/moreDif"
+            android:layout_toStartOf="@+id/difficultylvl"
+            android:background="@drawable/left"
+            />
+
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/difficultylvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/start"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/easy1" />
+
+        <TextView
+            android:id="@+id/difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/lessDif"
+            android:layout_alignEnd="@id/moreDif"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/difficulty"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+</RelativeLayout>

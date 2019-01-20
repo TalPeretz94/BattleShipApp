@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/storm1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/storm1"
+        android:duration="100" />
+
+</animation-list>

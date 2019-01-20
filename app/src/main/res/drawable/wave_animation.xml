@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/wave1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave12"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave13"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave14"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/light8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/wave14"
+        android:duration="100" />
+
+</animation-list>

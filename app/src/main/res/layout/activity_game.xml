@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".gameActivity"
+    android:layoutDirection="ltr"
+
+    android:background="@drawable/toonbackgroundgame2"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layoutDirection="ltr">
+
+        <ImageView
+            android:id="@+id/sound1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="60dp"
+            android:layout_toEndOf="@+id/gridview1"
+            app:srcCompat="@drawable/sound" />
+
+        <ImageButton
+            android:id="@+id/music1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="101dp"
+            android:layout_toEndOf="@+id/gridview1"
+            android:background="@drawable/music" />
+
+        <TextView
+            android:id="@+id/playerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridview1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+
+            android:textColor="#FF000000"
+            android:textSize="24sp" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridview1"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/turn"
+            android:layout_toRightOf="@id/turn"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorprograss"
+            android:indeterminateTintMode="src_in" />
+
+        <GridView
+            android:id="@+id/gridview1"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:alpha="0.8"
+            android:background="@drawable/water2"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:numColumns="8"
+            android:padding="3dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2dp"
+            android:layoutDirection="ltr"
+
+            /> <!--android:layout_centerHorizontal="true"-->
+
+
+        <ImageView
+            android:id="@+id/turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridview1"
+            android:layout_centerHorizontal="true"
+
+            android:src="@drawable/playerturn" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/playericon"-->
+        <!--android:layout_alignLeft="@id/turn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/gridview1"-->
+        <!---->
+
+        <!--android:layout_marginTop="-10dp"-->
+        <!--app:srcCompat="@drawable/playericon" /> &lt;!&ndash;android:layout_below="@id/gridview1"&ndash;&gt;-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:layoutDirection="ltr"
+        >
+
+
+        <GridView
+            android:id="@+id/gridview2"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:alpha="0.8"
+            android:background="@drawable/water2"
+            android:columnWidth="10dp"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:numColumns="8"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2dp"
+            android:layoutDirection="ltr"
+            />
+        <ImageView
+            android:id="@+id/stormiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
